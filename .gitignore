@@ -1,0 +1,7 @@
+src/.vs
+src/packages
+src/CoffeeCups/CoffeeCups.Droid/bin
+src/CoffeeCups/CoffeeCups.Droid/obj
+src/CoffeeCups/CoffeeCups.UWP/bin
+src/CoffeeCups/CoffeeCups.UWP/obj
+*.pfx
