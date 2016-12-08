@@ -91,10 +91,10 @@ namespace CoffeeCups
 
         private async void CheckCoffeeLimit()
         {
-            var TodayDate = DateTime.Now.ToLocalTime().ToString("d");
+            var todayDate = DateTime.Now.ToLocalTime().ToString("d");
 
             var group = from coffee in Coffees
-                where coffee.DateDisplay == TodayDate
+                where coffee.DateDisplay == todayDate
                 select new CupOfCoffee();
 
             if (@group?.Count() >= 4)
