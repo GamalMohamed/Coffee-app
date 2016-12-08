@@ -19,7 +19,7 @@ namespace CoffeeCups
     {
 
         public MobileServiceClient Client { get; set; } = null;
-        IMobileServiceSyncTable<CupOfCoffee> _coffeeTable;
+        private IMobileServiceSyncTable<CupOfCoffee> _coffeeTable;
         public static bool UseAuth { get; set; } = false;
 
         public async Task Initialize()
